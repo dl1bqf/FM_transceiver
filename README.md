@@ -1,7 +1,7 @@
 # FM_transceiver
-FM Transceiver mit dem DRA818V 
+FM Transceiver mit dem DRA818V.
 Diese Project beschreibt den Aufbau eines FM Transeiver für das 2 Meter Band mit dem SA818V oder DRA818V Modul.
-Als Processor wird ein CY8c27443-PXI verwendet 
+Als Processor wird ein CY8c27443-PXI verwendet.
 Der Code ist in c und Assembler geschrieben mit dem PSOC Designer 5.1
 
 - Spannungsversorung 7 bis 14 Volt extern eingespeist über den  DC Jack 
