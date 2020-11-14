@@ -17,3 +17,12 @@ Der Stromverbrauch beträgt im Empfangsfall 110 mA.
 Die Leistung 0,75 Watt im High Mode oder 0,25 Watt im Low Mode.
 Der TRX kann ohne Display betrieben werden die Einstellungen sind dann über die Cat Schnittstelle 
 vorzunehmen.
+
+
+
+
+Todo List
+
+------------------------------------------------------------------------------------------------------------
+Ändern des Displays auf OLED 4x 20, Implementation eines Schlafmodus für die CPu zur Senkung des Stromverbrauchs.
+Neuen Code für ein OLED Grafikdisplay entwickeln mit dem ziel einer Handy Version
