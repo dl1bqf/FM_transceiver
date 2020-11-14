@@ -1,0 +1,5 @@
+-F0x30 -g -blit:0x150.0x3fff 
+ -bdata:0.0xFF -rwh:SSCParmBlk:0x00F7.0x00FF   
+ -o"output/fmfunke2" 
+obj/aprs.o obj/kommando.o obj/main.o 	
+ ./lib/libPSoc.a -LD:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/lib/SMM D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/lib/CY8C27000B/cms.a D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/lib/SMM/UASW/NoMAC/arith.a  

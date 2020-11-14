@@ -1,0 +1,490 @@
+XH
+H 2 areas 25 global symbols
+M kommando.asm
+S LCD_1_Position Ref0000
+S UART_1_CPutString Ref0000
+S UART_1_cGetChar Ref0000
+S Timer8_3_Start Ref0000
+S LCD_1_PrCString Ref0000
+S LCD_1_WriteData Ref0000
+S UART_1_PutCRLF Ref0000
+S _warte1ms Ref0000
+S DAC8_1_Stop Ref0000
+S Timer8_3_WritePeriod Ref0000
+S Timer8_3_EnableInt Ref0000
+S LCD_1_Control Ref0000
+S Timer8_3_Stop Ref0000
+S LCD_1_Start Ref0000
+S UART_1_PutChar Ref0000
+S DAC8_1_WriteBlind Ref0000
+S _filter Ref0000
+S _volume Ref0000
+S DAC8_1_Start Ref0000
+A text size 261 flags 0
+dbfile ./kommando.asm
+dbfunc 0 ? 0 I
+dbline 29 0
+dbline 2A 1
+dbline 2B 2
+dbline 2C 4
+dbline 2D 7
+dbline 2E 8
+dbline 2F 9
+dbline 31 A
+dbline 32 D
+dbline 33 F
+dbline 34 11
+dbline 35 13
+dbline 39 16
+dbline 3A 18
+dbline 3B 1A
+dbline 3F 1C
+dbline 45 1D
+dbline 46 1F
+dbline 47 21
+dbline 48 24
+dbline 49 26
+dbline 4B 27
+dbline 4C 29
+dbline 4D 2C
+dbline 4E 2E
+dbline 4F 31
+dbline 50 33
+dbline 51 34
+dbline 52 36
+dbline 53 38
+dbline 54 3A
+dbline 56 3C
+dbline 57 3E
+dbline 58 41
+dbline 59 43
+dbline 5A 46
+dbline 5B 48
+dbline 5F 49
+dbline 60 4B
+dbline 61 4D
+dbline 62 50
+dbline 63 53
+dbline 64 55
+dbline 65 57
+dbline 66 59
+dbline 67 5C
+dbline 68 5E
+dbline 6A 61
+dbline 6B 63
+dbline 6C 65
+dbline 6D 67
+dbline 6E 6A
+dbline 6F 6C
+dbline 71 6F
+dbline 72 71
+dbline 73 73
+dbline 74 75
+dbline 75 78
+dbline 76 7A
+dbline 78 7D
+dbline 79 7F
+dbline 7A 80
+dbline 7B 82
+dbline 7C 84
+dbline 7D 87
+dbline 7F 8A
+dbline 80 8C
+dbline 87 8E
+dbline 88 91
+dbline 89 93
+dbline 8A 96
+dbline 8B 98
+dbline 8C 99
+dbline 8D 9B
+dbline 8E 9D
+dbline 8F A0
+dbline 90 A2
+dbline 91 A4
+dbline 92 A7
+dbline 96 A8
+dbline 97 AA
+dbline 98 AC
+dbline 99 AF
+dbline 9A B1
+dbline 9B B3
+dbline 9C B6
+dbline 9D B9
+dbline 9E BB
+dbline 9F BD
+dbline A0 C0
+dbline A1 C2
+dbline A2 C5
+dbline A3 C7
+dbline A4 C9
+dbline A5 CB
+dbline A6 CE
+dbline A7 D0
+dbline A8 D2
+dbline A9 D5
+dbline BC D6
+dbline BD D8
+dbline BE DA
+dbline BF DD
+dbline C0 E0
+dbline C1 E2
+dbline C2 E4
+dbline C3 E7
+dbline C4 E9
+dbline C5 EC
+dbline C6 EE
+dbline C7 F0
+dbline C8 F2
+dbline C9 F5
+dbline CA F7
+dbline CB F9
+dbline CC FC
+dbline D2 FD
+dbline D3 FF
+dbline D4 101
+dbline D5 104
+dbline D6 107
+dbline D7 109
+dbline D8 10B
+dbline D9 10D
+dbline DA 10F
+dbline DB 112
+dbline DC 114
+dbline DD 116
+dbline DE 117
+dbline DF 119
+dbline E0 11C
+dbline E1 11D
+dbline E2 11E
+dbline E3 11F
+dbline E4 121
+dbline E5 123
+dbline E6 125
+dbline E7 128
+dbline E8 12A
+dbline E9 12D
+dbline EA 12F
+dbline EB 132
+dbline EC 134
+dbline ED 137
+dbline EE 13A
+dbline F0 13C
+dbline F1 13E
+dbline F2 140
+dbline F3 142
+dbline F4 144
+dbline F5 147
+dbline F6 149
+dbline F7 14B
+dbline F9 14D
+dbline FA 14F
+dbline FB 151
+dbline FC 153
+dbline FD 155
+dbline FE 158
+dbline 100 15A
+dbline 101 15C
+dbline 102 15E
+dbline 103 160
+dbline 104 162
+dbline 106 164
+dbline 107 166
+dbline 108 167
+dbline 109 169
+dbline 10A 16A
+dbline 10B 16C
+dbline 10C 16D
+dbline 10D 16F
+dbline 10E 170
+dbline 10F 172
+dbline 111 174
+dbline 116 175
+dbline 117 176
+dbline 119 179
+dbline 11A 17C
+dbline 2 17F
+dbline 11C 182
+dbline 11D 184
+dbline 11E 187
+dbline 11F 18A
+dbline 120 18C
+dbline 121 18F
+dbline 122 192
+dbline 123 194
+dbline 124 197
+dbline 125 19A
+dbline 126 19D
+dbline 128 1A0
+dbline 129 1A1
+dbline 12A 1A2
+dbline 12B 1A3
+dbline 2 1A6
+dbline 12D 1A9
+dbline 12E 1AC
+dbline 130 1AE
+dbline 131 1B0
+dbline 132 1B1
+dbline 137 1B2
+dbline 138 1B4
+dbline 139 1B6
+dbline 13A 1B8
+dbline 13B 1BA
+dbline 13D 1BC
+dbline 13E 1BE
+dbline 13F 1C1
+dbline 143 1C3
+dbline 2 1C4
+dbline 148 1C7
+dbline 149 1CA
+dbline 14A 1CC
+dbline 14E 1CD
+dbline 152 1CF
+dbline 153 1D1
+dbline 154 1D4
+dbline 155 1D6
+dbline 156 1D9
+dbline 157 1DB
+dbline 158 1DC
+dbline 159 1DD
+dbline 15A 1DF
+dbline 15B 1E1
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/UART_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/UART_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer8_3.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer8_3.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer8_2.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer8_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer8_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer8_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile RefMux_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/RefMux_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile PTT.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PTT.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PGA_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile HF_power.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/HF_power.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Eingangsamp.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile E2PROM_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/e2promlib.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/E2PROM_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/DAC8_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile COMP_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/COMP_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ADCINC_1.inc
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile ADCINC_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/ADCINC_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCGPIOINT.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./kommando.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile ./kommando.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+S _lcdInit Def000A
+S $lb$Str_Welcome Def01E2
+S $le$Str_Welcome Def0261
+S _clear_LCD Def0000
+S _setgroup_response Def01CD
+S w3 Def01A2
+S _kommando_setvol Def00A8
+S _kommando_rufton Def0175
+S ton_on1 Def01B2
+S _kommando_heartbeat Def00D6
+S _wait_ptt Def01C4
+S _kommando_rssi Def00FD
+S _kommando_setfilter Def0049
+A bss size 19 flags 20
+S lastPrt1 Def0015
+S _responsebuffer Def0000
+S _counter Def0018
+S bTablePos Def0016
+T 00 00 08 10 50 01 7C 00 00 20 18 7F 7C 00 00 9F
+R 00 00 00 00 02 07 00 0B 02 0D 00 0D
+T 00 0E F1 50 01 E2 57 01 E2 7C 00 00 5D 04 21 C0
+R 00 00 00 00 41 04 00 00 01 07 00 00 02 0A 00 04
+T 00 1A 53 00 15 7F 50 01 57 0C 7C 00 00 51 00 17
+R 00 00 00 00 01 03 00 01 02 0B 00 00 01 0E 00 01
+T 00 26 08 50 FF 7C 00 00 7A 00 17 3C 00 17 00 BF
+R 00 00 00 00 02 06 00 05 01 09 00 01 01 0C 00 01
+T 00 32 F5 18 53 00 17 50 08 12 00 17 53 00 17 50
+R 00 00 00 00 01 05 00 01 01 0A 00 01 01 0D 00 01
+T 00 3D 20 7C 00 00 7A 00 17 3C 00 17 00 BF F5 7F
+R 00 00 00 00 02 04 00 05 01 07 00 01 01 0A 00 01
+T 00 49 50 02 0D 57 02 0D 7C 00 00 3C
+R 00 00 00 00 41 03 00 00 01 06 00 00 02 09 00 01
+T 00 51 00 00 00 B0 0A 50 02 32 57 02 32 7C
+R 00 00 00 00 03 02 00 10 41 08 00 00 01 0B 00 00
+T 00 5A 00 00 80 2A 3C 00 00 01 B0 0A 50 02 38 57
+R 00 00 00 00 02 02 00 01 03 07 00 10 41 0D 00 00
+T 00 66 02 38 7C 00 00 80 1C 3C 00 00 02 B0 0A 50
+R 00 00 00 00 01 02 00 00 02 05 00 01 03 0A 00 10
+T 00 72 02 3E 57 02 3E 7C 00 00 80 0E 3C
+R 00 00 00 00 41 02 00 00 01 05 00 00 02 08 00 01
+T 00 7B 00 00 03 A0 02 7F 50 02 44 57 02 44 7C
+R 00 00 00 00 03 02 00 10 41 09 00 00 01 0C 00 00
+T 00 85 00 00 7C 00 00 50 10 91 41 3C 00 0E 30 B0
+R 00 00 00 00 02 02 00 01 02 05 00 06 01 0C 00 01
+T 00 92 07 3C 00 0D 3A B0 02 7F 50 01 57 00 7C
+R 00 00 00 00 01 04 00 01
+T 00 9E 00 00 50 02 1E 57 02 1E 7C
+R 00 00 00 00 02 02 00 00 41 05 00 00 01 08 00 00
+T 00 A5 00 00 7F 50 01 FC 57 01 FC 7C
+R 00 00 00 00 02 02 00 04 41 06 00 00 01 09 00 00
+T 00 AD 00 00 51 00 00 01 30 7C 00 00 7C
+R 00 00 00 00 02 02 00 01 03 05 00 11 02 0A 00 0E
+T 00 B7 00 00 50 0F 91 12 3C 00 0E 30 B0 06 3C
+R 00 00 00 00 02 02 00 06 01 09 00 01
+T 00 C3 00 0D 3A A0 0F 50 01 57 00 7C 00 00 50
+R 00 00 00 00 01 02 00 01 02 0C 00 00
+T 00 CF 02 1B 57 02 1B 7C 00 00 7F 50
+R 00 00 00 00 41 02 00 00 01 05 00 00 02 08 00 04
+T 00 D7 02 21 57 02 21 7C 00 00 7C
+R 00 00 00 00 41 02 00 00 01 05 00 00 02 08 00 01
+T 00 DE 00 00 50 0D 90 EB 3C 00 0B 30 B0 06 3C
+R 00 00 00 00 02 02 00 06 01 09 00 01
+T 00 EA 00 0A 3A A0 0F 50 01 57 00 7C 00 00 50
+R 00 00 00 00 01 02 00 01 02 0C 00 00
+T 00 F6 02 2F 57 02 2F 7C 00 00 7F 50
+R 00 00 00 00 41 02 00 00 01 05 00 00 02 08 00 04
+T 00 FE 02 4A 57 02 4A 7C 00 00 7C
+R 00 00 00 00 41 02 00 00 01 05 00 00 02 08 00 01
+T 01 05 00 00 50 08 90 C4 50 01 57 00 7C 00 00 50
+R 00 00 00 00 02 02 00 06 02 0D 00 00
+T 01 13 01 57 00 08 52 00 00 7C 00 00 18 75 74 39
+R 00 00 00 00 01 07 00 01 02 0A 00 05
+T 01 20 09 BF F4 50 20 7C 00 00 50 64 7C 00 00 50
+R 00 00 00 00 02 08 00 05 02 0D 00 05
+T 01 2E 62 7C 00 00 50 20 7C 00 00 55 00 17 00 51
+R 00 00 00 00 02 04 00 05 02 09 00 05 01 0C 00 01
+T 01 3B 00 05 11 30 39 00 A0 0A 60 E8 62 E9 64 5D
+R 00 00 00 00 01 02 00 01
+T 01 48 EB 53 00 17 51 00 06 11 30 39 00 A0 08 60
+R 00 00 00 00 01 04 00 01 01 07 00 01
+T 01 54 E8 62 E9 0A 5D EB 02 00 17 4C 00 17 51
+R 00 00 00 00 01 09 00 01 01 0C 00 01
+T 01 5F 00 07 11 30 02 00 17 70 FB 6D 70 FB 6D 70
+R 00 00 00 00 01 02 00 01 01 07 00 01
+T 01 6B FB 6D 70 FB 6D 53 00 17 9E A9 7F 08 55
+R 00 00 00 00 01 08 00 01
+T 01 77 00 16 00 41 76 7F 43 96 80 62 E3 00 50 03
+R 00 00 00 00 01 02 00 01
+T 01 84 7C 00 00 7C 00 00 50 D7 7C 00 00 7C
+R 00 00 00 00 02 03 00 12 02 06 00 0A 02 0B 00 09
+T 01 90 00 00 90 0E 7C 00 00 7C 00 00 41 96 7F 43
+R 00 00 00 00 02 02 00 03 02 07 00 08 02 0A 00 0C
+T 01 9E 76 80 18 7F 08 55 00 17 FF 62 E3 00 7C
+R 00 00 00 00 01 08 00 01
+T 01 AA 00 00 7A 00 17 BF F7 18 7F 51 00 16 39 10
+R 00 00 00 00 02 02 00 07 01 05 00 01 01 0C 00 01
+T 01 B6 B0 05 50 00 53 00 16 F0 92 7C 00 00 76
+R 00 00 00 00 01 07 00 01 02 0C 00 0F
+T 01 C2 00 16 7F 62 E3 00 49 04 20 AF F9 7F 50 0E
+R 00 00 00 00 01 02 00 01
+T 01 CF 53 00 14 7C 00 00 57 00 7C 00 00 54
+R 00 00 00 00 01 03 00 01 02 06 00 02 02 0B 00 02
+T 01 DA 00 00 75 5B 3A 00 14 BF F6 7F 56 48 46 20
+R 00 00 00 00 01 02 00 01 01 07 00 01
+T 01 E6 46 4D 20 46 75 6E 6B 65 20 44 4C 31 42 51
+R 00 00 00 00
+T 01 F4 46 20 56 31 2E 30 31 00 41 54 2B 44 4D 4F
+R 00 00 00 00
+T 02 02 53 45 54 56 4F 4C 55 4D 45 3D 00 41 54 2B
+R 00 00 00 00
+T 02 10 53 45 54 46 49 4C 54 45 52 3D 00 56 6F 00
+R 00 00 00 00
+T 02 1E 46 69 00 41 54 2B 44 4D 4F 43 4F 4E 4E 45
+R 00 00 00 00
+T 02 2C 43 54 00 43 6F 00 31 2C 31 2C 31 00 30 2C
+R 00 00 00 00
+T 02 3A 31 2C 31 00 31 2C 30 2C 31 00 31 2C 31 2C
+R 00 00 00 00
+T 02 48 30 00 52 53 53 49 3F 00 00 03 06 0C 18 22
+R 00 00 00 00
+T 02 56 30 32 32 30 24 1A 10 08 04 01 00
+R 00 00 00 00

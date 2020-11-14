@@ -1,0 +1,109 @@
+XH
+H 3 areas B global symbols
+M adcinc_1int.asm
+A text size 0 flags 0
+dbfile lib/adcinc_1int.asm
+dbfunc 0 ? 0 I
+dbfile ADCINC_1.inc
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile ADCINC_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/ADCINC_1.inc
+dbfunc 0 ? 0 I
+dbfile lib/adcinc_1int.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/adcinc_1int.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+A InterruptRAM size 8 flags 20
+S _ADCINC_1_bState Def0005
+S _ADCINC_1_bNumSamples Def0007
+S ADCINC_1_iResult Def0000
+S ADCINC_1_fStatus Def0004
+S ADCINC_1_fMode Def0006
+S _ADCINC_1_iResult Def0000
+S _ADCINC_1_fStatus Def0004
+S _ADCINC_1_fMode Def0006
+S ADCINC_1_bState Def0005
+S ADCINC_1_bNumSamples Def0007
+A UserModules size 6C flags 0
+dbfile lib/adcinc_1int.asm
+dbfunc 0 ? 0 I
+dbline 5D 0
+dbline 5F 2
+dbline 60 4
+dbline 62 5
+dbline 64 8
+dbline 65 A
+dbline 66 B
+dbline 67 D
+dbline 68 F
+dbline 69 11
+dbline 6A 13
+dbline 6B 14
+dbline 6C 17
+dbline 6D 1A
+dbline 3 1B
+dbline 5 1E
+dbline 71 21
+dbline 72 22
+dbline 73 24
+dbline 74 26
+dbline 75 28
+dbline 76 2A
+dbline 77 2C
+dbline 78 2D
+dbline 7E 2F
+dbline 7F 32
+dbline 83 34
+dbline 85 36
+dbline 86 38
+dbline 87 39
+dbline 98 3C
+dbline 99 3F
+dbline 9A 41
+dbline AB 44
+dbline AC 45
+dbline AE 48
+dbline AF 4A
+dbline B0 4D
+dbline 2 50
+dbline 4 53
+dbline B2 56
+dbline B4 57
+dbline B6 59
+dbline B7 5B
+dbline B8 5E
+dbline 2 61
+dbline 4 64
+dbline BA 67
+dbline 3 68
+dbline BE 6B
+S _ADCINC_1_ADConversion_ISR Def0000
+T 00 00 7A 00 05 C0 02 7E 3C 00 06 00 B0 12 08 5D
+R 00 00 00 02 01 03 00 01 01 09 00 01
+T 00 0C E5 53 00 03 5D E4 53 00 02 18 55 00 06 01
+R 00 00 00 02 01 04 00 01 01 09 00 01 01 0D 00 01
+T 00 17 55 00 05 03 7E 43 8A 20 43 8B 10 08 5D E5
+R 00 00 00 02 01 03 00 01
+T 00 24 12 00 03 53 00 03 5D E4 1A 00 02 67 6E
+R 00 00 00 02 01 03 00 01 01 06 00 01 01 0B 00 01
+T 00 2E 00 03 06 00 03 80 09 00 39 01 B0 05 78 55
+R 00 00 00 02 01 02 00 01 01 05 00 01
+T 00 3A 00 03 FF 5F 00 01 00 03 53
+R 00 00 00 02 01 02 00 01 01 06 00 01 01 08 00 01
+T 00 40 00 00 55 00 04 01 18 3C 00 07 00 B0 0E 55
+R 00 00 00 02 01 02 00 01 01 05 00 01 01 0A 00 01
+T 00 4B 00 06 00 55 00 05 00 41 8B EF 41 8A DF 7E
+R 00 00 00 02 01 02 00 01 01 06 00 01
+T 00 57 7A 00 07 A0 0E 55 00 06 00 55 00 05 00 41
+R 00 00 00 02 01 03 00 01 01 08 00 01 01 0C 00 01
+T 00 62 8B EF 41 8A DF 7E 41 E1 FD 7E
+R 00 00 00 02

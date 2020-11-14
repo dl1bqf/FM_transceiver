@@ -1,0 +1,432 @@
+XH
+H 3 areas 7B global symbols
+M uart_2.asm
+S UART_2_fStatus Ref0000
+S UART_2_bRxCnt Ref0000
+S UART_2_aRxBuffer Ref0000
+A text size 0 flags 0
+dbfile lib/uart_2.asm
+dbfunc 0 ? 0 I
+dbfile ./lib/UART_2.inc
+dbfunc 0 ? 0 I
+dbfile lib/uart_2.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/uart_2.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+A UART_2_RAM size 1 flags 20
+A UserModules size 1A9 flags 0
+dbfile lib/uart_2.asm
+dbfunc 0 ? 0 I
+dbline 2 0
+dbline 2 3
+dbline B6 6
+dbline 2 7
+dbline 2 A
+dbline D6 D
+dbline 2 E
+dbline F8 10
+dbline F9 12
+dbline FA 14
+dbline 2 17
+dbline FD 19
+dbline 100 1A
+dbline 2 1D
+dbline 103 1F
+dbline 122 20
+dbline 123 22
+dbline 124 24
+dbline 126 26
+dbline 129 28
+dbline 145 29
+dbline 146 2C
+dbline 148 2F
+dbline 164 30
+dbline 166 32
+dbline 185 33
+dbline 187 35
+dbline 1A6 36
+dbline 1A8 38
+dbline 1C8 39
+dbline 1CA 3B
+dbline 1E9 3C
+dbline 2 3E
+dbline 1EB 40
+dbline 1EC 42
+dbline 1EE 44
+dbline 1EF 47
+dbline 1F2 49
+dbline 2 4C
+dbline 1F7 4E
+dbline 218 4F
+dbline 219 50
+dbline 21A 52
+dbline 2 54
+dbline 21D 57
+dbline 2 59
+dbline 223 5C
+dbline 224 5D
+dbline 225 5F
+dbline 2 61
+dbline 228 64
+dbline 2 66
+dbline 22F 69
+dbline 259 7A
+dbline 25A 7B
+dbline 25B 7C
+dbline 25C 7D
+dbline 25D 7E
+dbline 25E 7F
+dbline 25F 81
+dbline 260 83
+dbline 261 85
+dbline 262 86
+dbline 263 88
+dbline 264 8A
+dbline 266 8C
+dbline 285 8D
+dbline 286 8E
+dbline 287 90
+dbline 288 91
+dbline 28A 93
+dbline 3 94
+dbline 4 97
+dbline 5 99
+dbline 2B0 9B
+dbline 2D0 9C
+dbline 2D1 9F
+dbline 2D2 A1
+dbline 2D4 A3
+dbline 2F3 A4
+dbline 2F4 A6
+dbline 2F5 A7
+dbline 2F6 A9
+dbline 2F7 AB
+dbline 2F8 AC
+dbline 2FB AE
+dbline 2FC B0
+dbline 2FE B1
+dbline 2FF B2
+dbline 300 B4
+dbline 301 B6
+dbline 303 B7
+dbline 306 B8
+dbline 30A BA
+dbline 330 BB
+dbline 332 BD
+dbline 333 BF
+dbline 334 C0
+dbline 335 C2
+dbline 336 C4
+dbline 337 C5
+dbline 338 C7
+dbline 339 C8
+dbline 33C CA
+dbline 33D CB
+dbline 33E CD
+dbline 33F CE
+dbline 344 D0
+dbline 367 D1
+dbline 368 D3
+dbline 369 D5
+dbline 36A D7
+dbline 36B D8
+dbline 36F DA
+dbline 395 DB
+dbline 398 DC
+dbline 399 DE
+dbline 39A E0
+dbline 3A0 E2
+dbline 3A2 E4
+dbline 3 E6
+dbline 4 E9
+dbline 5 EB
+dbline 3A4 ED
+dbline 3A6 EE
+dbline 3A7 F0
+dbline 3AB F2
+dbline 3D1 F3
+dbline 3D3 F4
+dbline 3D4 F7
+dbline 3D5 F9
+dbline 3D6 FC
+dbline 3D9 FE
+dbline 3DA FF
+dbline 3DB 101
+dbline 3DC 103
+dbline 3 104
+dbline 4 107
+dbline 5 109
+dbline 3DE 10B
+dbline 3DF 10C
+dbline 3E0 10F
+dbline 3E1 112
+dbline 3E2 115
+dbline 3E3 118
+dbline 3E7 11A
+dbline 405 11B
+dbline 406 11C
+dbline 407 11D
+dbline 408 11E
+dbline 409 120
+dbline 40A 122
+dbline 40B 123
+dbline 40C 124
+dbline 40D 125
+dbline 40E 127
+dbline 40F 128
+dbline 413 12A
+dbline 415 12C
+dbline 431 12D
+dbline 432 12F
+dbline 433 131
+dbline 434 133
+dbline 436 135
+dbline 462 136
+dbline 464 139
+dbline 465 13C
+dbline 467 13F
+dbline 469 142
+dbline 48D 143
+dbline 48E 145
+dbline 490 147
+dbline 4B9 148
+dbline 4BA 14A
+dbline 4BB 14C
+dbline 4BD 14F
+dbline 4DC 150
+dbline 4DE 152
+dbline 518 153
+dbline 519 155
+dbline 51A 157
+dbline 51C 158
+dbline 51D 15A
+dbline 51E 15C
+dbline 51F 15D
+dbline 523 15F
+dbline 524 161
+dbline 525 163
+dbline 526 164
+dbline 527 166
+dbline 528 168
+dbline 529 16B
+dbline 52C 16D
+dbline 52E 16E
+dbline 52F 171
+dbline 532 173
+dbline 535 174
+dbline 536 175
+dbline 537 177
+dbline 538 17A
+dbline 539 17C
+dbline 53A 17E
+dbline 53B 180
+dbline 53C 182
+dbline 53D 184
+dbline 53E 187
+dbline 53F 189
+dbline 540 18C
+dbline 541 18E
+dbline 544 191
+dbline 545 192
+dbline 546 193
+dbline 547 196
+dbline 548 198
+dbline 549 199
+dbline 54A 19B
+dbline 54D 19C
+dbline 550 19D
+dbline 551 19E
+dbline 554 1A0
+dbline 574 1A1
+dbline 575 1A3
+dbline 576 1A5
+dbline 577 1A6
+dbline 579 1A8
+S $sb$UART_2_PutChar Def0094
+S $se$UART_2_PutChar Def009C
+S UART_2_bCmdLength Def0150
+S $sb$UART_2_IntCntl Def004F
+S _UART_2_TxIntMode Def003C
+S $se$UART_2_IntCntl Def006A
+S UART_2_PutSHexInt Def008D
+S UART_2_DisableInt Def0007
+S $sb$UART_2_szGetRestOfParams Def01A1
+S $se$UART_2_szGetRestOfParams Def01A9
+S UART_2_CPutString Def011B
+S $sb$UART_2_bCmdLength Def0150
+S $se$UART_2_bCmdLength Def0153
+S $sb$UART_2_PutSHexInt Def008D
+S $se$UART_2_PutSHexInt Def0094
+S $sb$UART_2_DisableInt Def0007
+S UART_2_szGetParam Def0153
+S $se$UART_2_DisableInt Def000E
+S UART_2_cGetChar Def009C
+S UART_2_SendData Def0030
+S _UART_2_Stop Def0029
+S _UART_2_SetTxIntMode Def000E
+S UART_2_Write Def00DB
+S UART_2_Start Def0020
+S _UART_2_PutString Def00D1
+S $sb$UART_2_CPutString Def011B
+S $se$UART_2_CPutString Def012D
+S _UART_2_PutChar Def0094
+S UART_2_CmdReset Def0136
+S $sb$UART_2_szGetParam Def0153
+S _UART_2_IntCntl Def004F
+S $se$UART_2_szGetParam Def01A1
+S $sb$UART_2_cGetChar Def009C
+S $se$UART_2_cGetChar Def00A4
+S $sb$UART_2_SendData Def0030
+S bUART_2_ReadRxData Def0036
+S UART_2_bReadRxData Def0036
+S _UART_2_szGetRestOfParams Def01A1
+S $se$UART_2_SendData Def0033
+S $sb$UART_2_Write Def00DB
+S $se$UART_2_Write Def00F3
+S $sb$UART_2_Start Def0020
+S bUART_2_ReadRxStatus Def0039
+S UART_2_bReadRxStatus Def0039
+S $se$UART_2_Start Def0029
+S bUART_2_ReadTxStatus Def0033
+S UART_2_bReadTxStatus Def0033
+S $sb$UART_2_CmdReset Def0136
+S $se$UART_2_CmdReset Def0143
+S _UART_2_bCmdLength Def0150
+S _UART_2_PutSHexInt Def008D
+S _UART_2_DisableInt Def0007
+S $sb$UART_2_bReadRxData Def0036
+S $se$UART_2_bReadRxData Def0039
+S UART_2_PutSHexByte Def007A
+S $sb$UART_2_bReadRxStatus Def0039
+S $sb$UART_2_bReadTxStatus Def0033
+S $se$UART_2_bReadRxStatus Def003C
+S $se$UART_2_bReadTxStatus Def0036
+S UART_2_CWrite Def00F3
+S _UART_2_CPutString Def011B
+S $lb$UART_2_HEX_STR Def006A
+S UART_2_bCmdCheck Def0143
+S $le$UART_2_HEX_STR Def007A
+S _UART_2_szGetParam Def0153
+S UART_2_cReadChar Def00A4
+S UART_2_PutCRLF Def012D
+S _UART_2_cGetChar Def009C
+S $sb$UART_2_PutSHexByte Def007A
+S UART_2_iReadChar Def00BB
+S _UART_2_SendData Def0030
+S $se$UART_2_PutSHexByte Def008D
+S UART_2_bErrCheck Def0148
+S _UART_2_Write Def00DB
+S $sb$UART_2_CWrite Def00F3
+S _UART_2_Start Def0020
+S $se$UART_2_CWrite Def011B
+S $sb$UART_2_bCmdCheck Def0143
+S UART_2_EnableInt Def0000
+S $se$UART_2_bCmdCheck Def0148
+S _UART_2_CmdReset Def0136
+S $sb$UART_2_cReadChar Def00A4
+S UART_2_TxIntMode Def003C
+S $sb$UART_2_PutCRLF Def012D
+S $se$UART_2_cReadChar Def00BB
+S $se$UART_2_PutCRLF Def0136
+S $sb$UART_2_iReadChar Def00BB
+S _bUART_2_ReadRxData Def0036
+S _UART_2_bReadRxData Def0036
+S $se$UART_2_iReadChar Def00D1
+S $sb$UART_2_bErrCheck Def0148
+S $se$UART_2_bErrCheck Def0150
+S _bUART_2_ReadRxStatus Def0039
+S _UART_2_bReadRxStatus Def0039
+S _bUART_2_ReadTxStatus Def0033
+S _UART_2_bReadTxStatus Def0033
+S $sb$UART_2_EnableInt Def0000
+S $se$UART_2_EnableInt Def0007
+S $sb$UART_2_TxIntMode Def003C
+S $se$UART_2_TxIntMode Def004F
+S _UART_2_PutSHexByte Def007A
+S UART_2_Stop Def0029
+S UART_2_SetTxIntMode Def000E
+S _UART_2_CWrite Def00F3
+S UART_2_PutString Def00D1
+S _UART_2_bCmdCheck Def0143
+S UART_2_PutChar Def0094
+S _UART_2_cReadChar Def00A4
+S UART_2_IntCntl Def004F
+S _UART_2_PutCRLF Def012D
+S _UART_2_iReadChar Def00BB
+S $sb$UART_2_Stop Def0029
+S UART_2_szGetRestOfParams Def01A1
+S $sb$UART_2_SetTxIntMode Def000E
+S $se$UART_2_Stop Def0030
+S $se$UART_2_SetTxIntMode Def0020
+S _UART_2_bErrCheck Def0148
+S $sb$UART_2_PutString Def00D1
+S $se$UART_2_PutString Def00DB
+S _UART_2_EnableInt Def0000
+T 00 00 43 E1 40 43 E1 80 7F 41 E1 BF 41 E1 7F 7F
+R 00 00 00 02
+T 00 0E 71 10 21 01 A0 07 43 38 10 70 EF 7F 41 38
+R 00 00 00 02
+T 00 1C EF 70 EF 7F 29 01 60 3B 60 3F 91 0E 7F 41
+R 00 00 00 02
+T 00 2A 3B FE 41 3F FE 7F 60 39 7F 5D 3B 7F 5D 3E
+R 00 00 00 02
+T 00 38 7F 5D 3F 7F 21 01 71 10 39 01 A0 06 41 38
+R 00 00 00 02
+T 00 46 EF 80 04 43 38 10 70 EF 7F 08 21 01 A0 06
+R 00 00 00 02
+T 00 54 43 E1 80 80 04 41 E1 7F 18 21 02 A0 06 43
+R 00 00 00 02
+T 00 62 E1 40 80 04 41 E1 BF 7F 30 31 32 33 34 35
+R 00 00 00 02
+T 00 70 36 37 38 39 41 42 43 44 45 46 08 67 67 67
+R 00 00 00 02
+T 00 7E 67 21 0F FF E7 90 0F 18 21 0F FF E0 90 08
+R 00 00 00 02
+T 00 8C 7F 4B 9F EA 5B 9F E7 7F 49 3B 10 AF FC 60
+R 00 00 00 02
+T 00 9A 39 7F 49 3F 08 AF FC 5D 3E 7F 5D 3F 08 21
+R 00 00 00 02
+T 00 A8 08 B0 04 18 80 0B 5D 3E 4B 18 21 A0 B0 03
+R 00 00 00 02
+T 00 B6 4B 7F 50 00 7F 5D 3F 21 E8 08 21 08 B0 07
+R 00 00 00 02
+T 00 C4 18 29 01 4B 80 07 18 21 E0 4B 5D 3E 7F 52
+R 00 00 00 02
+T 00 D2 00 A0 06 9F BD 75 8F F8 7F 4F 52 FB A0 13
+R 00 00 00 02
+T 00 E0 7B FB 59 FD 52 00 49 3B 10 AF FC 60 39 4F
+R 00 00 00 02
+T 00 EE 77 FD 8F EB 7F 4F 3D FA 00 B0 06 3D FB 00
+R 00 00 00 02
+T 00 FC A0 1D 10 52 FC 59 FD 28 49 3B 10 AF FC 60
+R 00 00 00 02
+T 01 0A 39 20 07 FD 01 0F FC 00 17 FB 01 1F FA 00
+R 00 00 00 02
+T 01 18 8F DB 7F 08 10 28 A0 0B 9F 72 20 18 75 DF
+R 00 00 00 02
+T 01 26 F5 74 8F F2 38 FE 7F 50 0D 9F 63 50 0A 9F
+R 00 00 00 02
+T 01 34 5F 7F 55 00 00 00 55 00 00 00 26 00 00 00
+R 00 00 00 02 03 05 00 02 03 09 00 01 03 0D 00 00
+T 01 3F 55 00 00 00 7F 51 00 00 21 01 7F 51 00 00
+R 00 00 00 02 01 03 00 01 03 08 00 00 03 0E 00 00
+T 01 4A 21 F0 26 00 00 0F 7F 51 00 00 7F 50 00 00
+R 00 00 00 02 03 05 00 00 03 0A 00 01 03 0E 00 02
+T 01 55 02 00 00 5C 52 00 B0 04 10 80 33 39 20 B0
+R 00 00 00 02 01 03 00 01
+T 01 62 11 75 76 00 00 52 00 3C 00 00 0F BF F3 10
+R 00 00 00 02 01 05 00 01 01 0A 00 01
+T 01 6E 56 00 00 80 1F 10 75 76 00 00 3C 00 00 0F
+R 00 00 00 02 01 0A 00 01 01 0D 00 01
+T 01 7A AF F3 52 00 A0 12 39 20 BF F1 56 00 00 76
+R 00 00 00 02
+T 01 88 00 00 3C 00 00 0F B0 04 55 00 00 0F 20 10
+R 00 00 00 02 01 02 00 01 01 05 00 01 01 0B 00 01
+T 01 93 3D 00 00 B0 06 20 57 00 5B 7F 20 50 00 00
+R 00 00 00 02 43 0E 00 02
+T 01 A0 7F 50 00 00 02 00 00 5C 50 00 00 7F
+R 00 00 00 02 03 04 00 02 01 07 00 01 43 0B 00 02

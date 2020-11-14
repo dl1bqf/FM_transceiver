@@ -1,0 +1,26 @@
+XH
+H 3 areas 2 global symbols
+M uart_1int.asm
+A text size 0 flags 0
+dbfile lib/uart_1int.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile lib/uart_1int.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/uart_1int.asm
+dbfunc 0 ? 0 I
+dbfile ./lib/UART_1.inc
+dbfunc 0 ? 0 I
+A InterruptRAM size 0 flags 20
+A UserModules size 2 flags 0
+dbfile lib/uart_1int.asm
+dbfunc 0 ? 0 I
+dbline 73 0
+dbline 119 1
+S _UART_1_RX_ISR Def0001
+S _UART_1_TX_ISR Def0000
+T 00 00 7E 7E
+R 00 00 00 02

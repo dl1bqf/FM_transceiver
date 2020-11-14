@@ -1,0 +1,105 @@
+# DO NOT DELETE
+./obj/aprs.o : 
+./obj/boot.o : \
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8ssc.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\lib\GLOBAL~1.INC\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./obj/kommando.o :  ./lib/ADCINC_1.inc ./lib/COMP_1.inc ./lib/DAC8_1.inc\
+   ./lib/E2PROM_1.inc ./lib/EINGAN~1.INC ./lib/HF_power.inc\
+   ./lib/LCD_1.inc ./lib/PGA_1.inc ./lib/PSoCAPI.inc ./lib/PSOCGP~1.INC\
+   ./lib/PTT.inc ./lib/RefMux_1.inc ./lib/Timer8_1.inc\
+   ./lib/Timer8_2.inc ./lib/Timer8_3.inc ./lib/UART_1.inc\
+   ./lib/UART_2.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/E2PROM~1.INC\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./obj/main.o :  ./lib/ADCINC_1.h ./lib/COMP_1.h ./lib/DAC8_1.h\
+   ./lib/E2PROM_1.h ./lib/EINGAN~1.H ./lib/HF_power.h ./lib/LCD_1.h\
+   ./lib/PGA_1.h ./lib/PSoCAPI.h ./lib/PSOCGP~1.H ./lib/PTT.h\
+   ./lib/RefMux_1.h ./lib/Timer8_1.h ./lib/Timer8_2.h ./lib/Timer8_3.h\
+   ./lib/UART_1.h ./lib/UART_2.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/M8C.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/_const.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/limits.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/stdarg.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/stdio.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/stdlib.h\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/string.h
+./lib/obj/adcinc_1.o :  ./lib/ADCINC_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/adcinc_1int.o :  ./lib/ADCINC_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/comp_1.o :  ./lib/COMP_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/comp_1int.o :  ./lib/COMP_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/dac8_1.o :  ./lib/DAC8_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/e2prom_1.o :  ./lib/E2PROM_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/E2PROM~1.INC\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/eingangsamp.o :  ./lib/EINGAN~1.INC\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/hf_power.o :  ./lib/HF_power.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/lcd_1.o :  ./lib/LCD_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/pga_1.o :  ./lib/PGA_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/psocconfig.o :  ./lib/GLOBAL~1.INC\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/psocconfigtbl.o : \
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+./lib/obj/psocgpioint.o :  ./lib/PSOCGP~1.INC\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+./lib/obj/ptt.o :  ./lib/PTT.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/refmux_1.o :  ./lib/RefMux_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/timer8_1.o :  ./lib/Timer8_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/timer8_1int.o :  ./lib/Timer8_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/timer8_2.o :  ./lib/Timer8_2.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/timer8_2int.o :  ./lib/Timer8_2.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/timer8_3.o :  ./lib/Timer8_3.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/timer8_3int.o :  ./lib/Timer8_3.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/uart_1.o :  ./lib/UART_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/uart_1int.o :  ./lib/UART_1.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/uart_1plus.o : 
+./lib/obj/uart_2.o :  ./lib/UART_2.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/uart_2int.o :  ./lib/UART_2.inc\
+   D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   F:\PSOCDE~1.4PR\fmfunke2\fmfunke2\memory.inc
+./lib/obj/uart_2plus.o : 

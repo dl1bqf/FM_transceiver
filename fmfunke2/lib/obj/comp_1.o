@@ -1,0 +1,114 @@
+XH
+H 2 areas 1E global symbols
+M comp_1.asm
+A text size 0 flags 0
+dbfile lib/comp_1.asm
+dbfunc 0 ? 0 I
+dbfile COMP_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/COMP_1.inc
+dbfunc 0 ? 0 I
+dbfile lib/comp_1.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/comp_1.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+A UserModules size 56 flags 0
+dbfile lib/comp_1.asm
+dbfunc 0 ? 0 I
+dbline 5A 0
+dbline 5B 2
+dbline 5D 3
+dbline 5E 4
+dbline 5F 6
+dbline 60 8
+dbline 61 A
+dbline 62 C
+dbline 64 D
+dbline 7B E
+dbline 7D 11
+dbline A0 12
+dbline A1 14
+dbline A2 15
+dbline A3 16
+dbline A4 18
+dbline A5 1A
+dbline A6 1D
+dbline A8 1F
+dbline A9 22
+dbline AC 24
+dbline AD 27
+dbline B0 2A
+dbline B1 2C
+dbline B2 2E
+dbline B4 2F
+dbline CC 30
+dbline CD 32
+dbline CE 34
+dbline CF 36
+dbline D1 38
+dbline D3 3A
+dbline D4 3B
+dbline 2 3C
+dbline D6 3E
+dbline D7 40
+dbline D8 42
+dbline D9 44
+dbline 2 46
+dbline DB 48
+dbline DD 49
+dbline 2 4A
+dbline F6 4D
+dbline 2 4E
+dbline 10F 51
+dbline 2 52
+dbline 128 55
+S $sb$COMP_1_DisableInt Def004E
+S $se$COMP_1_DisableInt Def0052
+S _COMP_1_Stop Def000E
+S COMP_1_Start Def0000
+S COMP_1_ClearInt Def0052
+S $sb$COMP_1_Start Def0000
+S $se$COMP_1_Start Def000E
+S $sb$COMP_1_ClearInt Def0052
+S $se$COMP_1_ClearInt Def0056
+S COMP_1_SetPower Def0000
+S _COMP_1_DisableInt Def004E
+S COMP_1_SetRef Def0012
+S $sb$COMP_1_SetRef Def0012
+S $se$COMP_1_SetRef Def0030
+S _COMP_1_Start Def0000
+S _COMP_1_ClearInt Def0052
+S COMP_1_EnableInt Def004A
+S COMP_1_SetPolarity Def0030
+S $sb$COMP_1_EnableInt Def004A
+S $se$COMP_1_EnableInt Def004E
+S _COMP_1_SetPower Def0000
+S $sb$COMP_1_SetPolarity Def0030
+S $se$COMP_1_SetPolarity Def004A
+S COMP_1_Stop Def000E
+S _COMP_1_SetRef Def0012
+S $sb$COMP_1_Stop Def000E
+S $se$COMP_1_Stop Def0012
+S _COMP_1_EnableInt Def004A
+S COMP_1_DisableInt Def004E
+S _COMP_1_SetPolarity Def0030
+T 00 00 21 03 4F 08 5D 7F 21 FC 2B 00 60 7F 18 7F
+R 00 00 00 01
+T 00 0E 41 7F FC 7F 21 F4 4F 08 5D 7D 21 0F 48 00
+R 00 00 00 01
+T 00 1C 04 B0 06 41 7C FE 80 07 43 7C 01 27 00 10
+R 00 00 00 01
+T 00 2A 2B 00 60 7D 18 7F 21 01 A0 05 50 30 80 03
+R 00 00 00 01
+T 00 38 50 C0 4F 08 71 10 5D 67 21 0F 2B 00 60 67
+R 00 00 00 01
+T 00 46 70 EF 18 7F 43 E0 10 7F 41 E0 EF 7F 62 DA
+R 00 00 00 01
+T 00 54 EF 7F
+R 00 00 00 01

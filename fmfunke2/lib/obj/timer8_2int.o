@@ -1,0 +1,77 @@
+XH
+H 3 areas 7 global symbols
+M timer8_2int.asm
+S Timer8_2_DisableInt Ref0000
+S LCD_1_Position Ref0000
+S LCD_1_PrHexByte Ref0000
+S _bit_buffer Ref0000
+S Timer8_2_EnableInt Ref0000
+S _bit_counter Ref0000
+A text size 0 flags 0
+dbfile lib/timer8_2int.asm
+dbfunc 0 ? 0 I
+dbfile Timer8_2.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer8_2.inc
+dbfunc 0 ? 0 I
+dbfile lib/timer8_2int.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/timer8_2int.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+A InterruptRAM size 0 flags 20
+A UserModules size 45 flags 0
+dbfile lib/timer8_2int.asm
+dbfunc 0 ? 0 I
+dbline 4A 0
+dbline 4B 1
+dbline 4C 2
+dbline 4D 5
+dbline 4E 7
+dbline 4F 9
+dbline 50 B
+dbline 51 D
+dbline 52 F
+dbline 53 12
+dbline 54 14
+dbline 55 17
+dbline 56 1A
+dbline 57 1C
+dbline 58 1F
+dbline 5A 21
+dbline 5B 23
+dbline 5C 25
+dbline 5D 27
+dbline 5E 29
+dbline 5F 2B
+dbline 60 2E
+dbline 61 30
+dbline 62 32
+dbline 63 34
+dbline 64 37
+dbline 65 39
+dbline 66 3C
+dbline 67 3F
+dbline 68 42
+dbline 69 43
+dbline 7A 44
+S _Timer8_2_ISR Def0000
+T 00 00 08 10 7C 00 00 5D 04 21 01 65 00 00 04
+R 00 00 00 02 02 05 00 00 03 0C 00 03
+T 00 0C 00 00 76 00 00 3C 00 00 08 B0 2C 26
+R 00 00 00 02 03 02 00 03 03 05 00 05 03 08 00 05
+T 00 15 00 00 00 3C 00 00 7E A0 06 26 00 00 00 80
+R 00 00 00 02 03 02 00 05 03 06 00 03 03 0C 00 03
+T 00 20 1F 5D 04 21 01 65 00 00 04 00 00 76 00 00
+R 00 00 00 02 03 08 00 03 03 0B 00 03 03 0E 00 05
+T 00 2B 3C 00 00 08 BF F2 50 01 57 00 7C 00 00 51
+R 00 00 00 02 03 03 00 05 02 0D 00 01
+T 00 38 00 00 7C 00 00 26 00 00 00 7C
+R 00 00 00 02 03 02 00 03 02 05 00 02 03 08 00 03
+T 00 40 00 00 20 18 7E
+R 00 00 00 02 02 02 00 04

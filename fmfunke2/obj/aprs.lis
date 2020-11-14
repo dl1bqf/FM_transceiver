@@ -1,0 +1,67 @@
+ 0000           ;include 'm8c.inc'
+ 0000           ;include 'memory.inc'
+ 0000           ;include 'PSoCAPI.inc'
+ 0000                   ;export         _aprs
+                        export  _bit_counter
+                        export  _bit_buffer
+                        export  _SINtable
+                area    bss(RAM)
+                
+                ;-----------------------------------------------------------------------------
+                ;  Defines
+                ;-----------------------------------------------------------------------------
+                
+                ;-----------------------------------------------------------------------------
+                ;  Private data: 
+                ;-----------------------------------------------------------------------------
+ 0000           _bit_buffer:         blk  1
+ 0001           _bit_counter:         blk  1
+ 0002           ;data_counter:        blk 1
+                area    text(ROM,REL)
+                
+ 0000 7F        _aprs:       ret
+ 0001           ;             call           testFlag
+ 0001           ;                        cmp            [bit_buffer],0
+ 0001           ;                        jnz            deadress
+ 0001           ;                        ret
+ 0001           ;deadress:    mov            [data_counter],7
+ 0001           ;             ret
+ 0001           ;---------------------------------------------------------------------------------
+ 0001           ;
+ 0001           ;            Testet ob      UI Frame erkannt ist ---> ist bit_buffer =7e dann ready
+ 0001           ;------------------------------------------------------------------------------------
+ 0001           ;testFlag:    inc               [clock] 
+ 0001           ;                        cmp            [clock],8
+ 0001           ;                        jz             clockfull
+ 0001           ;                        ret
+ 0001           ;clockfull:   mov            a,reg[PRT1DR]
+ 0001           ;             and            a,1  
+ 0001                                   
+ 0001           ;                        asl            [bit_buffer]
+ 0001           ;                        add            [bit_buffer],a
+ 0001           ;                        mov            [clock],0
+ 0001           ;            inc            [bit_counter]
+ 0001           ;             cmp            [bit_counter],8
+ 0001           ;                        jz              bytefull
+ 0001           ;                        ret
+ 0001           ;bytefull:     
+ 0001           ;             mov            [clock],0
+ 0001           ;             cmp            [bit_buffer],0x7e
+ 0001           ;                         jz             aprsflag_ready
+ 0001           ;                         mov            [bit_buffer],0
+ 0001           ;                         ret
+ 0001           ;aprsflag_ready:    mov            a,48
+ 0001           ;              lcall          LCD_1_WriteData
+ 0001           ;              ret
+ 0001           ;-----------------------------------------------------------------------------------------
+ 0001           ;
+ 0001           ;   holt daten in den Datenbuffer anzahl steht im Data_counter  
+ 0001           ;------------------------------------------------------------------------------------------
+ 0001           ;get_aprs_data:
+ 0001           ;              push            a
+ 0001           ;                         push            x
+ 0001           ;g1:           inc             [clock]
+ 0001           ;              cmp             [clock],8
+ 0001           ;                         jnz             g1
+ 0001           ;                         
+ 0001           ;                         ret

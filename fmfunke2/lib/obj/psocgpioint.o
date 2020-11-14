@@ -1,0 +1,78 @@
+XH
+H 1 areas A global symbols
+M psocgpioint.asm
+S _Print_Frequenz Ref0000
+S lastPrt1 Ref0000
+S _direction Ref0000
+S w3 Ref0000
+S _TXstatus Ref0000
+S _kommando_setvol Ref0000
+S PTT_Invert Ref0000
+S Eingangsamp_Start Ref0000
+S _volume Ref0000
+A text size 5C flags 0
+dbfile lib/psocgpioint.asm
+dbfunc 0 ? 0 I
+dbline 3C 0
+dbline 3D 1
+dbline 2 2
+dbline 43 5
+dbline 44 8
+dbline 45 A
+dbline 46 C
+dbline 47 E
+dbline 48 10
+dbline 49 12
+dbline 4A 14
+dbline 4B 16
+dbline 4C 18
+dbline 4D 1A
+dbline 4E 1C
+dbline 4F 1F
+dbline 51 21
+dbline 52 24
+dbline 54 26
+dbline 55 29
+dbline 56 2C
+dbline 57 2F
+dbline 58 32
+dbline 59 35
+dbline 5A 37
+dbline 5B 3A
+dbline 5D 3C
+dbline 5E 3E
+dbline 2 41
+dbline 68 44
+dbline 69 47
+dbline 76 49
+dbline 77 4C
+dbline 78 4E
+dbline 79 50
+dbline 7C 53
+dbline 2 56
+dbline 81 59
+dbline 82 5A
+dbline 89 5B
+dbfile ./lib/PSoCGPIOINT.inc
+dbfunc 0 ? 0 I
+dbfile lib/psocgpioint.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+S PSoC_GPIO_ISR Def0000
+T 00 00 08 10 41 E0 DF 49 04 20 A0 1D 5D 04 21 C0
+R 00 00 00 00
+T 00 0E 3A 00 00 A0 42 53 00 00 39 40 A0 0A 39 00
+R 00 00 00 00 03 03 00 01 03 08 00 01
+T 00 1A B0 38 55 00 00 80 80 33 55 00 00 81 80 2E
+R 00 00 00 00 03 05 00 02 03 0B 00 02
+T 00 26 2E 00 00 10 7C 00 00 7C 00 00 7C
+R 00 00 00 00 03 03 00 04 02 07 00 00 02 0A 00 03
+T 00 30 00 00 49 04 20 A0 06 2E 00 00 20 80 18 50
+R 00 00 00 00 02 02 00 06 03 0A 00 04
+T 00 3D 03 7C 00 00 62 E3 00 55 00 00 00 80 0B 3C
+R 00 00 00 00 02 04 00 07 03 0A 00 02
+T 00 4A 00 00 08 A0 06 76 00 00 7C 00 00 41 DA DF
+R 00 00 00 00 03 02 00 08 03 08 00 08 02 0B 00 05
+T 00 56 43 E0 20 20 18 7E
+R 00 00 00 00

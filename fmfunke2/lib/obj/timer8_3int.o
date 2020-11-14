@@ -1,0 +1,38 @@
+XH
+H 3 areas 4 global symbols
+M timer8_3int.asm
+S Timer8_3_DisableInt Ref0000
+S Timer8_3_EnableInt Ref0000
+S ton_on1 Ref0000
+A text size 0 flags 0
+dbfile lib/timer8_3int.asm
+dbfunc 0 ? 0 I
+dbfile Timer8_3.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer8_3.inc
+dbfunc 0 ? 0 I
+dbfile lib/timer8_3int.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/timer8_3int.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+A InterruptRAM size 0 flags 20
+A UserModules size E flags 0
+dbfile lib/timer8_3int.asm
+dbfunc 0 ? 0 I
+dbline 4A 0
+dbline 4B 1
+dbline 4C 2
+dbline 56 5
+dbline 57 8
+dbline 58 B
+dbline 59 C
+dbline 6A D
+S _Timer8_3_ISR Def0000
+T 00 00 08 10 7C 00 00 7C 00 00 7C 00 00 20 18 7E
+R 00 00 00 02 02 05 00 00 02 08 00 02 02 0B 00 01

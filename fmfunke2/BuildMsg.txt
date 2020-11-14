@@ -1,0 +1,70 @@
+Starting MAKE...
+creating project.mk 
+
+lib/adcinc_1.asm
+
+lib/adcinc_1int.asm
+
+lib/comp_1.asm
+
+lib/comp_1int.asm
+
+lib/dac8_1.asm
+
+lib/e2prom_1.asm
+
+lib/eingangsamp.asm
+
+lib/hf_power.asm
+
+lib/lcd_1.asm
+
+lib/pga_1.asm
+
+lib/psocconfig.asm
+
+lib/psocconfigtbl.asm
+
+lib/psocgpioint.asm
+
+lib/ptt.asm
+
+lib/refmux_1.asm
+
+lib/timer8_1.asm
+
+lib/timer8_1int.asm
+
+lib/timer8_2.asm
+
+lib/timer8_2int.asm
+
+lib/timer8_3.asm
+
+lib/timer8_3int.asm
+
+lib/uart_1.asm
+
+lib/uart_1int.asm
+
+lib/uart_1plus.asm
+
+lib/uart_2.asm
+
+lib/uart_2int.asm
+
+lib/uart_2plus.asm
+
+./boot.asm
+
+Linking..
+
+  ROM 84% full. 13759 out of 16384 bytes used (does not include absolute areas).
+
+  RAM 38% full. 97 bytes used (does not include stack usage).
+
+Built with ICCM8C STD V7.05.00
+
+ 
+fmfunke2 - 0 error(s) 0 warning(s) 14:59:53
+

@@ -1,0 +1,12 @@
+XH
+H 2 areas 3 global symbols
+M aprs.asm
+A text size 1 flags 0
+dbfile ./aprs.asm
+dbfunc 0 ? 0 I
+dbline 16 0
+A bss size 2 flags 20
+S _bit_buffer Def0000
+S _bit_counter Def0001
+T 00 00 7F
+R 00 00 00 00

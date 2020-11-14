@@ -1,0 +1,63 @@
+XH
+H 2 areas E global symbols
+M refmux_1.asm
+A text size 0 flags 0
+dbfile lib/refmux_1.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/refmux_1.asm
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile lib/refmux_1.asm
+dbfunc 0 ? 0 I
+dbfile RefMux_1.inc
+dbfunc 0 ? 0 I
+dbfile D:/PROGRA~1/cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/RefMux_1.inc
+dbfunc 0 ? 0 I
+A UserModules size 20 flags 0
+dbfile lib/refmux_1.asm
+dbfunc 0 ? 0 I
+dbline 4E 0
+dbline 4F 2
+dbline 51 3
+dbline 52 4
+dbline 53 6
+dbline 54 8
+dbline 55 A
+dbline 56 C
+dbline 58 D
+dbline 72 E
+dbline 74 11
+dbline 96 12
+dbline 97 14
+dbline 98 15
+dbline 99 16
+dbline 9A 18
+dbline 9B 1A
+dbline 9C 1C
+dbline 9D 1E
+dbline 9F 1F
+S $sb$RefMux_1_Stop Def000E
+S $se$RefMux_1_Stop Def0012
+S _RefMux_1_RefSelect Def0012
+S _RefMux_1_Stop Def000E
+S RefMux_1_Start Def0000
+S $sb$RefMux_1_Start Def0000
+S $se$RefMux_1_Start Def000E
+S RefMux_1_SetPower Def0000
+S _RefMux_1_Start Def0000
+S RefMux_1_RefSelect Def0012
+S _RefMux_1_SetPower Def0000
+S $sb$RefMux_1_RefSelect Def0012
+S $se$RefMux_1_RefSelect Def0020
+S RefMux_1_Stop Def000E
+T 00 00 21 03 4F 08 5D 73 21 FC 2B 00 60 73 18 7F
+R 00 00 00 01
+T 00 0E 41 73 FC 7F 21 1C 4F 08 5D 73 21 E3 2B 00
+R 00 00 00 01
+T 00 1C 60 73 18 7F
+R 00 00 00 01
